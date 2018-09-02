@@ -1,0 +1,72 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://it-ing.ru">
+	<objectType name="WayList">
+		<property name="Number" type="xs:string"/>
+		<property name="Date" type="xs:date"/>
+		<property xmlns:d3p1="http://it-ing.ru" name="Auto" type="d3p1:AutoString" nillable="true"/>
+		<property name="Driver" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://it-ing.ru" name="Tasks" type="d3p1:WayListTask" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property xmlns:d3p1="http://it-ing.ru" name="GasStations" type="d3p1:WayListGasStations" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property name="CountFuelStart" type="xs:int"/>
+		<property name="CountFuelEnd" type="xs:int"/>
+		<property name="SpeedometrStart" type="xs:float"/>
+		<property name="SpeedometrEnd" type="xs:float"/>
+	</objectType>
+	<objectType name="WayListTask">
+		<property name="StartPoint" type="xs:string"/>
+		<property name="StopPoint" type="xs:string"/>
+		<property name="StartDate" type="xs:date"/>
+		<property name="StopDate" type="xs:date"/>
+		<property name="Run" type="xs:integer"/>
+	</objectType>
+	<objectType name="WayListGasStations">
+		<property name="Date" type="xs:date"/>
+		<property xmlns:d3p1="http://it-ing.ru" name="GasStation" type="d3p1:GasStationString" nillable="true"/>
+		<property xmlns:d3p1="http://it-ing.ru" name="Fuel" type="d3p1:FuelString"/>
+		<property xmlns:d3p1="http://it-ing.ru" name="MotionFuel" type="d3p1:MotionFuelString"/>
+		<property name="Price" type="xs:float"/>
+		<property name="Total" type="xs:float"/>
+		<property xmlns:d3p1="http://it-ing.ru" name="Card" type="d3p1:CardString"/>
+		<property name="ID" type="xs:string"/>
+		<property name="Quantity" type="xs:float"/>
+	</objectType>
+	<objectType name="AutoString">
+		<property name="Name" type="xs:string"/>
+		<property name="ID" type="xs:string"/>
+		<property name="ExpenseFuelNorm" type="xs:float" lowerBound="0" nillable="true"/>
+		<property name="SpidometrEnd" type="xs:float" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="AutoArray">
+		<property xmlns:d3p1="http://it-ing.ru" name="Auto" type="d3p1:AutoString" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="FuelString">
+		<property name="Name" type="xs:string"/>
+		<property name="ID" type="xs:string"/>
+	</objectType>
+	<objectType name="FuelArray">
+		<property xmlns:d3p1="http://it-ing.ru" name="Fuel" type="d3p1:FuelString" upperBound="-1"/>
+	</objectType>
+	<objectType name="GasStationString">
+		<property name="Name" type="xs:string"/>
+		<property name="ID" type="xs:string"/>
+	</objectType>
+	<objectType name="GasStationArray">
+		<property xmlns:d3p1="http://it-ing.ru" name="GasStation" type="d3p1:GasStationString" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="MotionFuelString">
+		<property name="Name" type="xs:string"/>
+		<property name="ID" type="xs:string"/>
+	</objectType>
+	<objectType name="MotionFuelArray">
+		<property xmlns:d3p1="http://it-ing.ru" name="MotionFuel" type="d3p1:MotionFuelString" upperBound="-1"/>
+	</objectType>
+	<objectType name="CardString">
+		<property name="Name" type="xs:string"/>
+		<property name="ID" type="xs:string"/>
+	</objectType>
+	<objectType name="CardArray">
+		<property xmlns:d3p1="http://it-ing.ru" name="Card" type="d3p1:CardString" upperBound="-1"/>
+	</objectType>
+	<objectType name="PrintDoc">
+		<property name="Data" type="xs:string"/>
+	</objectType>
+</package>

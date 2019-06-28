@@ -3,7 +3,7 @@
 	<ConfigVersions>
 		<Metadata name="Configuration.Конфигурация" id="d9ed1fa6-af5c-46fd-9a97-394a22820ae9" configVersion="8780e9a1745cd54baede70e8003346c500000000"/>
 		<Metadata name="Language.Русский" id="850232aa-1509-4c7e-83d2-a290ac9a4a62" configVersion="48351e273ce36342a05a9b3c7ad10c9f00000000"/>
-		<Metadata name="WebService.WayListData" id="13cf2895-e405-4203-8cba-ae1579badeb9" configVersion="a603069f7e510740b42d9e837db1fa5c00000000">
+		<Metadata name="WebService.WayListData" id="13cf2895-e405-4203-8cba-ae1579badeb9" configVersion="2e9a400fefe1f74d994ddfe82be6bccb00000000">
 			<Metadata name="WebService.WayListData.Operation.GetFuel" id="0aff80ba-8c8f-4c92-bea1-081a372a4140"/>
 			<Metadata name="WebService.WayListData.Operation.GetCard" id="1410a443-a6c7-414a-bbce-1eeb9f80e0e2"/>
 			<Metadata name="WebService.WayListData.Operation.GetMotionFuel" id="2c47d90a-8c58-44be-beed-aec9a4d25797"/>
@@ -18,8 +18,8 @@
 			<Metadata name="WebService.WayListData.Operation.GetGasStation" id="f69627d0-9eba-41d5-958f-b1d61541d441"/>
 			<Metadata name="WebService.WayListData.Operation.GetData.Parameter.NumberDoc" id="f7a1ec6d-1b5f-40e9-adc3-5bd80769a553"/>
 		</Metadata>
-		<Metadata name="WebService.WayListData.Module" id="13cf2895-e405-4203-8cba-ae1579badeb9.0" configVersion="a170dd83d6e8d74dba44c7d6b50fb1c100000000"/>
-		<Metadata name="XDTOPackage.WayListData" id="65cd9a09-9d61-4536-9993-48969a3de1b2" configVersion="6513dfc970fb874483695a12fe04385400000000"/>
-		<Metadata name="XDTOPackage.WayListData.Package" id="65cd9a09-9d61-4536-9993-48969a3de1b2.0" configVersion="d1b87882951d2a4caf3084ccbaeeed7b00000000"/>
+		<Metadata name="WebService.WayListData.Module" id="13cf2895-e405-4203-8cba-ae1579badeb9.0" configVersion="1c2d921f9874f549a6303a0a8247c87500000000"/>
+		<Metadata name="XDTOPackage.WayListData" id="65cd9a09-9d61-4536-9993-48969a3de1b2" configVersion="c9f83efc8d4f97469848b808846ddbcc00000000"/>
+		<Metadata name="XDTOPackage.WayListData.Package" id="65cd9a09-9d61-4536-9993-48969a3de1b2.0" configVersion="ed2a2952f5417f489bd1f5fbff9f19ed00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

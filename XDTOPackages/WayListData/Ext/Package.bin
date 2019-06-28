@@ -6,8 +6,8 @@
 		<property name="Driver" type="xs:string" nillable="true"/>
 		<property xmlns:d3p1="http://it-ing.ru" name="Tasks" type="d3p1:WayListTask" lowerBound="0" upperBound="-1" nillable="true"/>
 		<property xmlns:d3p1="http://it-ing.ru" name="GasStations" type="d3p1:WayListGasStations" lowerBound="0" upperBound="-1" nillable="true"/>
-		<property name="CountFuelStart" type="xs:int"/>
-		<property name="CountFuelEnd" type="xs:int"/>
+		<property name="CountFuelStart" type="xs:float"/>
+		<property name="CountFuelEnd" type="xs:float"/>
 		<property name="SpeedometrStart" type="xs:float"/>
 		<property name="SpeedometrEnd" type="xs:float"/>
 	</objectType>
